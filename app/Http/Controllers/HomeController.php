@@ -98,13 +98,6 @@ class HomeController extends Controller
         }
         
     }
-
-    public function deletePost($post)
-    {
-        $post->delete();
-        return redirect('/home')
-        ->with('message', 'Post deleated!');
-    }
    /* public function followUser($id)
     {
     $user = User::find($id);

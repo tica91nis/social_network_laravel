@@ -23,6 +23,4 @@ Route::get('/user/{id}', 'ProfileController@viewProfile');
 
 Route::post('/home', 'HomeController@publish');
 
-Route::post('/home', 'HomeController@deletePost');
-
 Route::get('/event/{id}', 'EventController@index');
